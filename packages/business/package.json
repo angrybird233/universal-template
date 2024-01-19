@@ -1,0 +1,24 @@
+{
+  "name": "@mono-app/business",
+  "version": "1.0.0",
+  "description": "多端通用的业务模块",
+  "author": "chenjie@thundersdata.com",
+  "private": true,
+  "main": "index.ts",
+  "browser": "index.ts",
+  "react-native": "index.ts",
+  "dependencies": {
+    "@mono-app/api": "*",
+    "@mono-app/platform": "*",
+    "@mono-app/utils": "*"
+  },
+  "devDependencies": {
+    "@types/react": "17.0.39",
+    "@types/react-native": "0.67.7"
+  },
+  "peerDependencies": {
+    "@td-design/rn-hooks": "*",
+    "react": "*",
+    "react-native": "*"
+  }
+}
